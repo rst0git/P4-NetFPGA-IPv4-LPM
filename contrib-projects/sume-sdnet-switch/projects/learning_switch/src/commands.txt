@@ -1,0 +1,3 @@
+table_lpm_add_entry forward set_dst_port 192.168.10.2/32 => 0b00000100
+table_lpm_add_entry forward set_dst_port 192.168.10.0/24 => 0b00010000
+table_lpm_add_entry forward set_dst_port 192.168.0.0/16 => 0b01000000
